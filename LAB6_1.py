@@ -1,4 +1,15 @@
-a = [-1, 48, 50, 14, -5, -7, -6, 45, 30, -2, -2, -28, 15, -26, -33, -15, 10, -35, -16, 46, 46, -14]
+import random
+
+
+def generate_list():
+    a = []
+    for k in range(22):
+        a.append(random.randint(-40, 50))
+    return a
+
+
+# a = [-1, 48, 50, 14, -5, -7, -6, 45, 30, -2, -2, -28, 15, -26, -33, -15, 10, -35, -16, 46, 46, -14]
+a = generate_list()
 
 
 def sum_of_elements(lst):
